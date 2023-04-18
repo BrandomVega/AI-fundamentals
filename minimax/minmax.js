@@ -33,7 +33,7 @@ function minimax(tablero, depth, isMax) {
     //console.log(depth);
     return scores[result];
   }
-  console.log(depth)
+  //console.log(depth)
   if (isMax) {
     let bestScore = -1000000;
     for (let i = 0; i < 3; i++) {
